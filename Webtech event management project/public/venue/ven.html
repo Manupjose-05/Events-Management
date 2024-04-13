@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Venue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .venue {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .venue-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .venue-facilities {
+            margin-bottom: 10px;
+        }
+        .venue-facility {
+            margin-right: 10px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            background-color: #0c65e2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        input[type="submit"]:hover {
+            background-color: #1b0fba;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Select Venue or Auditorium</h1>
+    <form action="submit_venue.php" method="post">
+        <div class="venue">
+            <div class="venue-header">High Class Venue</div>
+            <div class="venue-facilities">
+                <span class="venue-facility">VIP seating area</span>
+                <span class="venue-facility">Luxury decor</span>
+                <span class="venue-facility">High-end sound system</span>
+            </div>
+            <label>
+                <input type="radio" name="venue" value="High Class Venue"> Select
+            </label>
+        </div>
+
+        <div class="venue">
+            <div class="venue-header">Middle Class Venue</div>
+            <div class="venue-facilities">
+                <span class="venue-facility">Standard seating area</span>
+                <span class="venue-facility">Simple decor</span>
+                <span class="venue-facility">Basic sound system</span>
+            </div>
+            <label>
+                <input type="radio" name="venue" value="Middle Class Venue"> Select
+            </label>
+        </div>
+
+        <div class="venue">
+            <div class="venue-header">Low Class Venue</div>
+            <div class="venue-facilities">
+                <span class="venue-facility">Economy seating area</span>
+                <span class="venue-facility">Minimal decor</span>
+                <span class="venue-facility">Standard sound system</span>
+            </div>
+            <label>
+                <input type="radio" name="venue" value="Low Class Venue"> Select
+            </label>
+        </div>
+
+        <input type="submit" value="Book Venue">
+    </form>
+</div>
+
+</body>
+</html>

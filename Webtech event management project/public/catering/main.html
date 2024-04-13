@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Catering Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .package {
+            margin-bottom: 20px;
+        }
+        .package-header {
+            background-color: #0c65e2;
+            color: white;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+        }
+        .package-body {
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            padding: 10px;
+        }
+        .food-item {
+            margin-bottom: 10px;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            background-color: #0c65e2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        input[type="submit"]:hover {
+            background-color: #1b0fba;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Select Catering Services</h1>
+    <form action="" method="post">
+        <div class="package">
+            <div class="package-header">Silver Package</div>
+            <div class="package-body">
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="silver_package[]" value="Appetizer"> Appetizer
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="silver_package[]" value="Main Course"> Main Course
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="silver_package[]" value="Dessert"> Dessert
+                    </label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="package">
+            <div class="package-header">Gold Package</div>
+            <div class="package-body">
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="gold_package[]" value="Appetizer"> Appetizer
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="gold_package[]" value="Main Course"> Main Course
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="gold_package[]" value="Dessert"> Dessert
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="gold_package[]" value="Drinks"> Drinks
+                    </label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="package">
+            <div class="package-header">Platinum Package</div>
+            <div class="package-body">
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="platinum_package[]" value="Appetizer"> Appetizer
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="platinum_package[]" value="Main Course"> Main Course
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="platinum_package[]" value="Dessert"> Dessert
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="platinum_package[]" value="Drinks"> Drinks
+                    </label>
+                </div>
+                <div class="food-item">
+                    <label>
+                        <input type="checkbox" name="platinum_package[]" value="Decorations"> Decorations
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <input type="submit" value="Book Catering Services">
+    </form>
+</div>
+
+</body>
+</html>

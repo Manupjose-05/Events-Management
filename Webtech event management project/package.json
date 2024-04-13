@@ -1,0 +1,17 @@
+{
+  "name": "responsive-event-organization-website-in-html-css-javascript-main",
+  "version": "1.0.0",
+  "description": "Hey guys in this article we make a Responsive Event Organization Website in HTML CSS and JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}

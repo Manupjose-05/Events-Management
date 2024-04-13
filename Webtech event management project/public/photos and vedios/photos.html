@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .item {
+            margin-bottom: 20px;
+            width: 300px; 
+        }
+        .item img,
+        .item video {
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .item video {
+            
+            margin: 30px;
+            max-width: 100%;
+            height: auto;
+        }
+        .hl{
+            margin: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Function Gallery</h1>
+    <div class="gallery">
+        <div class="item">
+            <img src=" wed.jpg" alt="Photo 1" width="300" height="200"> 
+        </div>
+        <div class="item">
+            <img src="wed1.jpeg" alt="Photo 2" width="300" height="200"> 
+        </div>
+        <div class="item">
+            <video id="hl"   controls width="300" height="200"> s
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <video controls width="300" height="200"> 
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="item">
+            <img src="download.jpeg" alt="Photo 3" width="300" height="200"> 
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>

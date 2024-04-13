@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Organisers | Manu & Alwin</title>
+
+   
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    
+
+   
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+  
+    <header class="header">
+      <a href="#" class="logo"><span>Festivity</span>Forge</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#service">service</a>
+        <a href="#price">price</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        
+      </nav>
+
+      <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+    
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          where your ideas take off
+          <span> Festivity Forge </span>
+        </h3>
+        
+      </div>
+
+      
+          <div >
+            <img src="banner.png" alt="" style="width: 1250px; height:480px;">
+          </div>
+
+    </section>
+
+    
+    <section class="service" id="service">
+      <h1 class="heading">our <span>services</span></h1>
+
+      <a href="invi.html">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>invitation card design</h3>
+          <p>
+            Create stunning invitations and event collateral that set the tone for your celebration.
+          </p>
+        </div>
+      </a>
+
+      <a href="photos and vedios/photos.html">
+        <div class="box">
+          <i class="fas fa-photo-video"></i>
+          <h3>photos and videos</h3>
+          <p>
+            Capture lasting memories with professional photography and videography services.
+          </p>
+        </div>
+      </a>
+
+        <a href="entertainment/entertainment.html">
+
+        <div class="box">
+          <i class="fas fa-music"></i>
+          <h3>entertainment</h3>
+          <p>
+            Elevate your event with unforgettable live music, DJs, performers, or speakers.
+          </p>
+        </div>
+      </a>
+
+        <a href="vehicles/new.html">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>enent vehicles</h3>
+          <p>
+            Ensure seamless transportation with stylish limousines, party buses, or other event vehicles.
+          </p>
+        </div>
+      </a>
+
+        <a href="venue/ven.html">
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>venue selection</h3>
+          <p>
+            Find the perfect space for your event, whether it's a grand ballroom, a cozy garden, or a unique venue.
+          </p>
+        </div>
+      </a>
+
+      <a href="catering/main.html">
+        <div class="box">
+          <i class="fas fa-birthday-cake"></i>
+          <h3>food catering</h3>
+          <p>
+            Delight your guests with delicious and creative catering options for every taste and occasion.
+          </p>
+        </div>
+
+      </a>
+      </div>
+    </section> 
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+  
+    
+
+    <section class="price" id="price">
+      <h1 class="heading">our <span>pricing</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3 class="title">basic</h3>
+          <h3 class="amount">Rs.50,000.00</h3>
+          <ul>
+            <li><i class="fas fa-check"></i>full services</li>
+            <li><i class="fas fa-check"></i> decorations</li>
+            <li><i class="fas fa-check"></i> music and photos</li>
+            <li><i class="fas fa-check"></i> food and drinks</li>
+            <li><i class="fas fa-check"></i> invitation card</li>
+          </ul>
+          <a class="btn" onclick="openModal()">check out</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">prime</h3>
+          <h3 class="amount">Rs.80,000.00</h3>
+          <ul>
+            <li><i class="fas fa-check"></i>full services</li>
+            <li><i class="fas fa-check"></i> decorations</li>
+            <li><i class="fas fa-check"></i> music and photos</li>
+            <li><i class="fas fa-check"></i> food and drinks</li>
+            <li><i class="fas fa-check"></i> invitation card</li>
+          </ul>
+          <a class="btn" onclick="openModal()">check out</a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">luxury</h3>
+          <h3 class="amount">Rs.1,00,000.00</h3>
+          <ul>
+            <li><i class="fas fa-check"></i>full services</li>
+            <li><i class="fas fa-check"></i> decorations</li>
+            <li><i class="fas fa-check"></i> music and photos</li>
+            <li><i class="fas fa-check"></i> food and drinks</li>
+            <li><i class="fas fa-check"></i> invitation card</li>
+          </ul>
+          <a  class="btn" onclick="openModal()">check out</a>
+        </div>
+
+       
+    </section>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <!-- Close button -->
+        <span class="close" onclick="closeModal()">&times;</span>
+        <!-- Popup image -->
+        <img src="images/gpay.jpg" alt="Popup Image" height="200px" width="150px">
+      </div>
+    </div>
+
+    <section class="reivew"  id="review" >
+      <h1 class="heading">client's <span>review</span></h1>
+
+      <div class="review-slider swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review profile pic.jpg" alt="" />
+              <div class="user-info">
+                <h3>nayana</h3>
+                <span>happy customer</span>
+              </div>
+            </div>
+            <p>
+              "I used the event management system for planning my wedding, and I couldn't be happier with the experience. 
+              The platform made it incredibly easy to organize every aspect of the event, from sending out invitations to managing RSVPs and coordinating vendors.
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review profile pic.jpg" alt="" />
+              <div class="user-info">
+                <h3>lisa</h3>
+                <span>happy customer</span>
+              </div>
+            </div>
+            <p>
+              "As an event planner, I rely on the event management system for all my projects, big or small. 
+              The comprehensive toolkit offered by the platform covers everything I need, from creating event timelines and budgets to tracking expenses and communicating with clients. 
+              The ability to customize templates and collaborate with team members in real-time significantly enhances productivity and ensures seamless execution of events.
+               A game-changer for any event planning business!"
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review profile pic.jpg" alt="" />
+              <div class="user-info">
+                <h3>mary</h3>
+                <span>happy customer</span>
+              </div>
+            </div>
+            <p>
+              "I've been using the event management system for organizing corporate events for my company, and it has truly transformed our event planning process. 
+              The platform's robust features, such as attendee registration, ticketing, and analytics, provide valuable insights that help us optimize event performance and maximize ROI. 
+              The exceptional customer support team is always available to assist with any questions or issues, making it a pleasure to work with. Highly impressed!"
+
+
+            </p>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review profile pic.jpg" alt="" />
+              <div class="user-info">
+                <h3>rose</h3>
+                <span>happy customer</span>
+              </div>
+            </div>
+            <p>
+              "I recently organized a charity fundraiser using the event management system, and I couldn't have asked for a better experience.
+               The platform's intuitive design and seamless integration with third-party tools made it easy to promote the event, manage donations, and engage with attendees. 
+                Overall, a fantastic platform for hosting successful and impactful events!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+    
+      <form id="contactForm" action="/submitContactForm" method="POST">
+        <div class="inputBox">
+          <input type="text" name="name" placeholder="Name" required />
+          <span class="error-message" id="name-error"></span> <!-- Error message for name -->
+          <input type="email" name="email" placeholder="Email" required />
+          <span class="error-message" id="email-error"></span> <!-- Error message for email -->
+        </div>
+
+        <div class="inputBox">
+          <input type="tel" name="number" placeholder="Phone Number" />
+          <input type="text" name="subject" placeholder="Subject" />
+        </div>
+        <textarea name="message" placeholder="Message" cols="30" rows="10" required></textarea>
+        <span class="error-message" id="message-error"></span> <!-- Error message for message -->
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    
+      <script>
+        // Function to validate the contact form
+        function validateContactForm() {
+          var name = document.forms["contactForm"]["name"].value;
+          var email = document.forms["contactForm"]["email"].value;
+          var message = document.forms["contactForm"]["message"].value;
+    
+          // Clear previous error messages
+          document.getElementById("name-error").innerHTML = "";
+          document.getElementById("email-error").innerHTML = "";
+          document.getElementById("message-error").innerHTML = "";
+    
+          // Validate name
+          if (name.trim() == "") {
+            document.getElementById("name-error").innerHTML = "Name is required.";
+            return false;
+          }
+    
+          // Validate email
+          if (!email.match(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/)) {
+            document.getElementById("email-error").innerHTML = "Please enter a valid email address.";
+            return false;
+          }
+    
+          // Validate message
+          if (message.trim() == "") {
+            document.getElementById("message-error").innerHTML = "Message is required.";
+            return false;
+          }
+    
+          return true; // Form is valid
+        }
+    
+        // Add event listener for form submission
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+          // Prevent form submission if validation fails
+          if (!validateContactForm()) {
+            event.preventDefault();
+          }
+        });
+      </script>
+    </section>
+    
+    
+
+   
+    <section class="footer">
+      <div class="box-container">
+        
+
+        <div class="box">
+          <h3>branches</h3>
+          <a href="#">  bangalore </a>
+          <a href="#">  hyderabad </a>
+          <a href="#">  delhi </a>
+          <a href="#">  kolkata </a>
+          <a href="#">  chennai </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="tel:+917510669636"> 7510669636 </a>
+          <a href="tel: +918848899041"> 8848899041 </a>
+          <a href="mailto:alwinroji15@gmial.com"> alwinroji@gmail.com </a>
+          <a href="mailto:manup@karunya.edu.in">  manup@karunya.edu.in </a>
+          <a href="#">
+             coimbatore, india - 641114
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="https://www.facebook.com/alwin.roji.3?mibextid=ZbWKwL">  facebook </a>
+          <a href="#">  twitter </a>
+          <a href="https://www.instagram.com/alw_i__n?utm_source=qr&igsh=ZXl1cnhpZ2VhejIz">  instagram </a>
+          <a href="https://www.linkedin.com/in/alwin-roji-889a79267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">  linkedin </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>ALWIN & MANU</span> 
+      </div>
+    </section>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      // Function to open the modal
+      function openModal() {
+        document.getElementById('myModal').style.display = "block";
+      }
+    
+      // Function to close the modal
+      function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+      }
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
